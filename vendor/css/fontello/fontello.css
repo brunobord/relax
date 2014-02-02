@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('fontello.eot?6867640');
+  src: url('fontello.eot?6867640#iefix') format('embedded-opentype'),
+       url('fontello.woff?6867640') format('woff'),
+       url('fontello.ttf?6867640') format('truetype'),
+       url('fontello.svg?6867640#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fontello:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.fontello-icon-coffee:before { content: '\e802'; }
+.fontello-icon-sun:before { content: '\e805'; }
+.fontello-icon-leaf:before { content: '\e803'; }
+.fontello-icon-stream:before { content: '\e801'; }
+.fontello-icon-tree:before { content: '\e806'; }
+.fontello-icon-garden:before { content: '\e808'; }
+.fontello-icon-fire:before { content: '\e800'; }
