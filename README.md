@@ -28,10 +28,6 @@ Browse the single ``index.html`` page using a modern browser.
 * You can't adjust the sound level on the interface. The volume is set in the
   code. You can change it manually by editing the volume percentage *in the
   source code* and reload the page.
-* The page is not really responsive. I've tried to implement it without having
-  to use a CSS framework, but it looks more difficult than I thought when I'm
-  combining it with the text editor. I guess I'll have to use a nice (but fat)
-  CSS grid.
 * Should I put some LESS for the CSS customization? I'm not sure. Maybe. Help me
   out if you can.
 
@@ -90,6 +86,7 @@ This project uses:
   [Lato](http://www.latofonts.com/lato-free-fonts/),
   [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab), provided by
   [Google Webfonts](https://www.google.com/fonts/)
+* Responsive grid by the [.fitgrd project](http://www.fitgrd.com/)
 
 ## Sounds:
 
