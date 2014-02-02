@@ -97,6 +97,7 @@ This project uses:
 * [fireplace](http://www.freesound.org/people/martats/sounds/138018/) by martats - CC-0,
 * [131024_brook_black_forest.wav](http://www.freesound.org/people/reinsamba/sounds/204195/) by reinsamba - CC-BY,
 
+All these sounds were suggested by [Jean-Michel Armand](https://github.com/mrjmad).
 
 Apart from that, the rest of the code (HTML/CSS/JS) is mine and is published
 under the terms of the [WTFPL](http://www.wtfpl.net/).
