@@ -3,44 +3,60 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Relax...</title>
+	<meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="initial-scale = 1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
 	<link rel="stylesheet" href="vendor/css/grid.css" type-"text/css">
 	<link rel="stylesheet" href="vendor/css/meteo/stylesheet.css" type="text/css">
 	<link rel="stylesheet" href="vendor/css/fontello/fontello.css" type="text/css">
 	<link rel="stylesheet" href="vendor/css/glyphicons.css" type="text/css">
 	<link rel="stylesheet" href="vendor/css/editor.css" />
+	<link rel="stylesheet" href="static/css/fitgrd.pack.css" type="text/css">
 	<link rel="stylesheet" href="static/css/style.css" type="text/css">
 	<link rel="stylesheet" href="static/css/preview.css" type="text/css">
 </head>
 <body>
 <div class="wrapper">
-<header class="row">
-	<div class="col content">
-		<div class="title-container">
-			<h1>Relax...</h1>
+
+<header>
+	<div class="center">
+		<div class="row">
+			<div class="fg12 title-container">
+				<h1>Relax...</h1>
+			</div>
 		</div>
 	</div>
 </header>
-<section class="row">
-	<div class="col content">
-		<div class="editor-wrapper">
-			<form action="" id="editor">
-			<textarea placeholder="Please relax and type away..."></textarea>
-			</form>
-		</div>
-	</div>
-	<div class="col sidebar">
-		<div id="soundlinks"></div>
-		<hr>
-		<div class="toolbar">
-			<p id="btn-save-wrapper"><a id="btn-save" href="#"><i class="glyphicon glyphicon-save"></i> Save as...</a></p>
-			<hr>
-			<p><i class="glyphicon glyphicon-open"></i> Open</p>
-			<p id="document-list"></p>
-		</div>
-		<hr>
-		<small class="notes">made with love by <a href="http://jehaisleprintemps.net">Bruno Bord</a> - &copy; 2014. Grab <a href="https://github.com/brunobord/relax">the source on Github</a>, inspired by the fantastic concept of <a href="http://noisli.com">Noisli.com</a></small>
-	</div>
 
+<section>
+	<div class="center">
+	<div class="row">
+
+		<div class="fg10">
+			<div class="editor-wrapper">
+				<form action="" id="editor">
+				<textarea placeholder="Please relax and type away..."></textarea>
+				</form>
+			</div>
+		</div>
+
+		<div class="fg2 sidebar">
+			<div id="soundlinks"></div>
+			<hr>
+			<div class="toolbar">
+				<p id="btn-save-wrapper"><a id="btn-save" href="#"><i class="glyphicon glyphicon-save"></i> Save as...</a></p>
+				<hr>
+				<p><i class="glyphicon glyphicon-open"></i> Open</p>
+				<p id="document-list"></p>
+			</div>
+			<hr>
+			<small class="notes">made with love by <a href="http://jehaisleprintemps.net">Bruno Bord</a> - &copy; 2014. Grab <a href="https://github.com/brunobord/relax">the source on Github</a>, inspired by the fantastic concept of <a href="http://noisli.com">Noisli.com</a></small>
+		</div>
+
+	</div>
+	</div>
 </section>
 
 </div> <!-- /wrapper -->
