@@ -2,8 +2,14 @@
 
 Relax is a Free (as in speech and beer) clone of [Noisli](http://noisli.com).
 
-To use it, simply put these files and static resources somewhere on a web
-server, and browse the ``index.html`` page using a modern browser.
+To use it, you have several options:
+
+* Go to [the associated Github page](http://brunobord.github.io/relax/) for this
+  project.
+* put these files and static resources somewhere on a web server. It can be
+  local or remote.
+
+Browse the single ``index.html`` page using a modern browser.
 
 ## Features
 
