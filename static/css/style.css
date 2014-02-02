@@ -101,3 +101,6 @@ body {
 .sidebar a.playing {
   color: rgb(110, 40, 40);
 }
+.notes a {
+  text-decoration: underline;
+}
