@@ -161,7 +161,7 @@ $(document).ready(function() {
 		ok = false;
 		while (!ok) {
 			var name = prompt("File name?");
-			if (name == null) continue;
+			if (name === null) break;
 			if (localStorage[prefix+':'+name] === undefined) {
 				ok = true;
 			} else {
