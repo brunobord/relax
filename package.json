@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/brunobord/relax",
   "dependencies": {
+    "uglifycss": "0.0.9",
     "uglifyjs": "^2.3.6"
   }
 }

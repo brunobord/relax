@@ -39,12 +39,18 @@ If you want to be able to produce the uglified/minified sources, you'll have to 
 npm install
 ```
 
-The Makefile allows you to minify the js files, using the following command:
+The Makefile allows you to minify the js and the css files, using the following command:
 
-```
+```shell
 make minify
 ```
 
+Or you may chose to minify the JS or the CSS files:
+
+```shell
+make minify_js
+make minify_css
+```
 
 ## Why this project?
 
