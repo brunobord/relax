@@ -31,6 +31,21 @@ Browse the single ``index.html`` page using a modern browser.
 * Should I put some LESS for the CSS customization? I'm not sure. Maybe. Help me
   out if you can.
 
+### Hacking on features
+
+If you want to be able to produce the uglified/minified sources, you'll have to install the required dependencies like this:
+
+```shell
+npm install
+```
+
+The Makefile allows you to minify the js files, using the following command:
+
+```
+make minify
+```
+
+
 ## Why this project?
 
 Let me be as clear as possible: Noisli is an absolutely great concept, and it's

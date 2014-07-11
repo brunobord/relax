@@ -1,0 +1,29 @@
+{
+  "name": "relax",
+  "version": "1.1.0",
+  "description": "Free clone of noisli.com - a multiple-file markdown editor, ambient sounds and uncluttered interface",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunobord/relax.git"
+  },
+  "keywords": [
+    "relax",
+    "markdown",
+    "editor",
+    "sounds",
+    "writing"
+  ],
+  "author": "Bruno Bord",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/brunobord/relax/issues"
+  },
+  "homepage": "https://github.com/brunobord/relax",
+  "dependencies": {
+    "uglifyjs": "^2.3.6"
+  }
+}
