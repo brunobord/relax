@@ -20,6 +20,7 @@ minify_css:
 	uglifycss --ugly-comments vendor/css/meteo/stylesheet.css > vendor/css/meteo/stylesheet.min.css
 	uglifycss --ugly-comments vendor/css/fontello/fontello.css > vendor/css/fontello/fontello.min.css
 	uglifycss --ugly-comments vendor/css/glyphicons.css > vendor/css/glyphicons.min.css
+	uglifycss --ugly-comments vendor/css/editor.css > vendor/css/editor.min.css
 	uglifycss --ugly-comments static/css/style.css > static/css/style.min.css
 	uglifycss --ugly-comments static/css/preview.css > static/css/preview.min.css
 
