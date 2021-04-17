@@ -1,0 +1,17 @@
+@keyframes changeColor {
+    0% {
+      background-color: #f3e8ee;
+    }
+  
+    25% {
+      background-color: #f7f7f2;
+    }
+  
+    50% {
+      background-color: #ffe8d4;
+    }
+  
+    100% {
+      background-color: #f3e8ee;
+    }
+  }
